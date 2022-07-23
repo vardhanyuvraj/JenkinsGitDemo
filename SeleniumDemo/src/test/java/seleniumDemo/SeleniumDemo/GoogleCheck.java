@@ -12,6 +12,7 @@ public class GoogleCheck {
 				"C:\\Users\\YUVRAJ\\git\\JenkinsGitDemo\\JenkinsGitDemo\\SeleniumDemo\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.co.in");
+		driver.manage().window().maximize();
 	}
 
 }
